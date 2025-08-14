@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Student Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+        <div class="container-fluid py-3 border-bottom">
+    <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+
+            <img src="https://student.dct.edu.ph//dist/img/DCTLogo2.png" width="40px" height="40px">
+            <strong class="me-4">{Group 12.}</strong>
+            <a href="students.html" class="me-3 text-decoration-none text-dark">Students</a>
+            <a href="attendance.html" class="me-3 text-decoration-none text-dark">Attendance</a>
+            <a href="form.html" class="me-3 text-decoration-none text-dark">Forms</a>
+
+        </div>
+        <div class="d-flex" style="width: 20%;">
+
+            <input type="text" class="form-control me-2" placeholder="Search">
+            <button class="btn btn-outline-success">Search</button>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Add Student Form</h2>
+      <form class="row g-3">
+           <div class="col-md-3 text-center">
+          <div class="border p-3 rounded">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg"
+              class="img-fluid rounded-circle mb-3"
+              alt="Student Image"
+              style="width: 200px; height: 200px; object-fit: cover"
+            />
+            <div class="mb-3">
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="ex. Juan" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Dela Cruz"
+              />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Middle Name</label>
+              <input type="text" class="form-control" placeholder="ex. Cruz" />
+            </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Gender</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" />
+                  <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" />
+                  <label class="form-check-label">Female</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Civil Status</label>
+              <select class="form-select">
+                <option selected disabled>Choose...</option>
+                <option>Single</option>
+                <option>Married</option>
+                <option>Widowed</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Date of Birth</label>
+              <input type="date" class="form-control" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Place of Birth</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Tarlac City"
+              />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Nationality</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Filipino"
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Religion</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Roman Catholic"
+              />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Contact No.</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="09XXXXXXXXX"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="ex. JuanD@email.com"
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label class="form-label">Street</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. 85th Subd."
+              />
+            </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Barangay</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Sto. Rosario"
+              />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">City</label>
+              <input type="text" class="form-control" placeholder="ex. Capas" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Province</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ex. Tarlac"
+              />
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-success">Add Student</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
